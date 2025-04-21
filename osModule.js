@@ -1,6 +1,6 @@
 const os = require('os');
 const osData = {
-    nombre: os.hostname(),
+    nombre: os.platform(),
     tipo: os.type(),
     version: os.version(),
     arquitectura: os.arch(),
